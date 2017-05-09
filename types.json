@@ -1,0 +1,40 @@
+{
+    "types": [
+        {
+            "id": 0,
+            "category": 0,
+            "name": "personal",
+            "description": "Fireworks intended for recreational use during holiday celebrations"
+        },
+        {
+            "id": 1,
+            "category": 0,
+            "name": "business",
+            "description": "Fireworks intended for business use"
+        },
+        {
+            "id": 2,
+            "category": 0,
+            "name": "sparklers",
+            "description": "Sparkly fireworks"
+        },
+        {
+            "id": 0,
+            "category": 1,
+            "name": "mini",
+            "description": "For all your  miniature demolition needs"
+        },
+        {
+            "id": 1,
+            "category": 1,
+            "name": "medium",
+            "description": "Medium-sized demolitions, like barns and tiny houses/trailers"
+        },
+        {
+            "id": 2,
+            "category": 1,
+            "name": "large",
+            "description": "For your big explosions"
+        }
+    ]
+}

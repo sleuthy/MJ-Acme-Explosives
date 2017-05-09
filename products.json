@@ -1,0 +1,118 @@
+{
+    "products": [{
+        "fairy_sparklers": {
+            "id": 0,
+            "type": 0,
+            "name": "Fairy Sparklers",
+            "description": "Multi-colored sparklers that are safe for any age."
+        },
+        "glitter": {
+            "id": 1,
+            "type": 0,
+            "name": "Glitter Fireworks",
+            "description": "Glittery fireworks in silver and gold."
+        },
+        "loudboomers": {
+            "id": 2,
+            "type": 0,
+            "name": "Loud Boomers",
+            "description": "Loud, annoying fireworks to piss off your neighbors."
+        },
+        "officebirthday": {
+            "id": 0,
+            "type": 1,
+            "name": "Office Birthday",
+            "description": "Surprise your colleagues with these birthday fireworks!"
+        },
+        "conferencecall": {
+            "id": 1,
+            "type": 1,
+            "name": "Conference Call",
+            "description": "Create suspense on conference calls with these loud exploding fireworks."
+        },
+        "fired": {
+            "id": 2,
+            "type": 1,
+            "name": "Fired",
+            "description": "Let that below-average employee go with explosions of color in the sky over their car as they leave!"
+        },
+        "officebirthday": {
+            "id": 0,
+            "type": 1,
+            "name": "Office Birthday",
+            "description": "Surprise your colleagues with these birthday fireworks!"
+        },
+        "supersparkle": {
+            "id": 0,
+            "type": 2,
+            "name": "Super Sparkle",
+            "description": "So extremeley sparkly!"
+        },
+        "littlesparkle": {
+            "id": 1,
+            "type": 2,
+            "name": "Little Sparkle",
+            "description": "Just a little sparkly."
+        },
+        "invisible": {
+            "id": 2,
+            "type": 2,
+            "name": "Invisible",
+            "description": "We promise it sparkles, you just can't see it."
+        },
+        "tiny": {
+            "id": 0,
+            "type": 0,
+            "name": "Tiny",
+            "description": "Practically not even an explosive device."
+        },
+        "small": {
+            "id": 1,
+            "type": 0,
+            "name": "Small",
+            "description": "Probably could take out a trash can, but not much else."
+        },
+		"smallish": {
+            "id": 2,
+            "type": 0,
+            "name": "Smallish",
+            "description": "About the size of your iPhone. Smallish."
+        },
+        "medium": {
+            "id": 0,
+            "type": 1,
+            "name": "Medium",
+            "description": "Sedan sized."
+        },
+        "mediumish": {
+            "id": 1,
+            "type": 1,
+            "name": "Mediumish",
+            "description": "SUV sized."
+        },
+        "mediumlarge": {
+            "id": 2,
+            "type": 1,
+            "name": "Medium Large",
+            "description": "The size of a small trailer."
+        },
+        "large": {
+            "id": 0,
+            "type": 2,
+            "name": "Large",
+            "description": "Pretty large."
+        },
+        "larger": {
+            "id": 1,
+            "type": 2,
+            "name": "Larger",
+            "description": "Even bigger."
+        },
+        "huge": {
+            "id": 2,
+            "type": 2,
+            "name": "Huge",
+            "description": "Freakin' huge."
+        }
+    }]
+}
