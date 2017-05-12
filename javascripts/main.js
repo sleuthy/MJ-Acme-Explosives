@@ -1,3 +1,5 @@
+"use strict";
+
 console.log("working main.js");
 
 // Create a simple user interface for your product catalog where a user can select a category
@@ -14,18 +16,20 @@ var output = document.getElementById("output");
 
 var Acme = function(originalAcme){
 	let acmeItems = [];
-	let parseData = function(data){
+
+	originalAcme.sortCategories = (data) => {
 		data.categories.forEach( (element) => {
 			acmeItems.push(element);
-		})
-	}
+		});
+	};
+
 	originalAcme.loadCategories = () => {
 		return new Promise( (resolve, reject) => {
 			let request = new XMLHttpRequest();
 			request.onload = function(){
 				if (request.status === 200){
 					var data = JSON.parse(request.responseText);
-					parseData(data);
+					originalAcme.sortCategories(data);
 					resolve(acmeItems);
 				} else {
 					//something went wrong
@@ -37,5 +41,8 @@ var Acme = function(originalAcme){
 		})
 	}
 	return originalAcme;
+console.log(acmeItems);
 
 }(Acme || {});
+
+
